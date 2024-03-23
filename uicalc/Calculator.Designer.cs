@@ -189,6 +189,7 @@
             sqrtButton.TabIndex = 6;
             sqrtButton.Text = "sqrt";
             sqrtButton.UseVisualStyleBackColor = true;
+            sqrtButton.Click += useSpecialOutput;
             // 
             // divideButton
             // 
@@ -201,6 +202,7 @@
             divideButton.TabIndex = 7;
             divideButton.Text = "/";
             divideButton.UseVisualStyleBackColor = true;
+            divideButton.Click += useOperator;
             // 
             // button7
             // 
@@ -252,6 +254,7 @@
             multiplyButton.TabIndex = 11;
             multiplyButton.Text = "*";
             multiplyButton.UseVisualStyleBackColor = true;
+            multiplyButton.Click += useOperator;
             // 
             // button4
             // 
@@ -303,6 +306,7 @@
             subtractButton.TabIndex = 15;
             subtractButton.Text = "-";
             subtractButton.UseVisualStyleBackColor = true;
+            subtractButton.Click += useOperator;
             // 
             // button1
             // 
