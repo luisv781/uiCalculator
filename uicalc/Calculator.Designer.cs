@@ -127,6 +127,7 @@
             clearEntryButton.TabIndex = 1;
             clearEntryButton.Text = "CE";
             clearEntryButton.UseVisualStyleBackColor = true;
+            clearEntryButton.Click += clearEntry;
             // 
             // clearButton
             // 
@@ -165,6 +166,7 @@
             reciprocalButton.TabIndex = 4;
             reciprocalButton.Text = "1/x";
             reciprocalButton.UseVisualStyleBackColor = true;
+            reciprocalButton.Click += useSpecialOperator;
             // 
             // squareButton
             // 
@@ -177,6 +179,7 @@
             squareButton.TabIndex = 5;
             squareButton.Text = "x^2";
             squareButton.UseVisualStyleBackColor = true;
+            squareButton.Click += useSpecialOperator;
             // 
             // sqrtButton
             // 
@@ -189,7 +192,7 @@
             sqrtButton.TabIndex = 6;
             sqrtButton.Text = "sqrt";
             sqrtButton.UseVisualStyleBackColor = true;
-            sqrtButton.Click += useSpecialOutput;
+            sqrtButton.Click += useSpecialOperator;
             // 
             // divideButton
             // 
